@@ -29,10 +29,10 @@ plotMonte <- function(n)
 	par(new = T)
 	#allow rewrite plot
 }
-
-monte(10000)
-#call monte function with n = 10000
-plotMonte(10000)
-#call plotMonte function with n = 10000
+totalpoint <- 10000
+monte(totalpoint)
+#call monte function with n = totalpoint
+plotMonte(totalpoint)
+#call plotMonte function with n = totalpoint
 abline(h = 0.5, col = "red")
 #drow a red line with hight = 0.5
