@@ -29,7 +29,7 @@ plotMonte <- function(n)
 	par(new = T)
 	#allow rewrite plot
 }
-totalpoint <- 10000
+totalpoint <- 1000
 monte(totalpoint)
 #call monte function with n = totalpoint
 plotMonte(totalpoint)
